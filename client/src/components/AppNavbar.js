@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import {
   Collapse,
   Navbar,
@@ -8,7 +8,7 @@ import {
   NavItem,
   NavLink,
   Container
-} from 'reactstrap';
+} from "reactstrap";
 
 class AppNavbar extends Component {
   state = {
@@ -27,7 +27,7 @@ class AppNavbar extends Component {
         <Navbar color="dark" dark expand="sm" className="mb-5">
           <Container>
             <NavbarBrand href="/">ShoppingList</NavbarBrand>
-            <NavbarToggler onClick={this.toggle} />
+            {/* <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
@@ -36,7 +36,7 @@ class AppNavbar extends Component {
                   </NavLink>
                 </NavItem>
               </Nav>
-            </Collapse>
+            </Collapse> */}
           </Container>
         </Navbar>
       </div>
